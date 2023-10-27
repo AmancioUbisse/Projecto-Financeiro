@@ -1,0 +1,17 @@
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\bin\Debug\net6.0\ProjectoFinanceiro.Services.deps.json
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\bin\Debug\net6.0\ProjectoFinanceiro.Services.dll
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\bin\Debug\net6.0\ProjectoFinanceiro.Services.pdb
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\obj\Debug\net6.0\ProjectoFinanceiro.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\obj\Debug\net6.0\ProjectoFinanceiro.Services.AssemblyInfoInputs.cache
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\obj\Debug\net6.0\ProjectoFinanceiro.Services.AssemblyInfo.cs
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\obj\Debug\net6.0\ProjectoFinanceiro.Services.csproj.CoreCompileInputs.cache
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\obj\Debug\net6.0\ProjectoFinanceiro.Services.dll
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\obj\Debug\net6.0\refint\ProjectoFinanceiro.Services.dll
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\obj\Debug\net6.0\ProjectoFinanceiro.Services.pdb
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\obj\Debug\net6.0\ref\ProjectoFinanceiro.Services.dll
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\bin\Debug\net6.0\ProjectoFinanceiro.Domain.dll
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\bin\Debug\net6.0\ProjectoFinanceiro.Infrastructure.dll
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\bin\Debug\net6.0\ProjectoFinanceiro.Domain.pdb
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\bin\Debug\net6.0\ProjectoFinanceiro.Infrastructure.pdb
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\obj\Debug\net6.0\ProjectoFinanceiro.Services.csproj.AssemblyReference.cache
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Services\obj\Debug\net6.0\ProjectoFinanceiro.Services.csproj.CopyComplete

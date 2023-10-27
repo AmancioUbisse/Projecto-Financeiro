@@ -1,0 +1,15 @@
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Infrastructure\bin\Debug\net6.0\ProjectoFinanceiro.Infrastructure.deps.json
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Infrastructure\bin\Debug\net6.0\ProjectoFinanceiro.Infrastructure.dll
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Infrastructure\bin\Debug\net6.0\ProjectoFinanceiro.Infrastructure.pdb
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Infrastructure\obj\Debug\net6.0\ProjectoFinanceiro.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Infrastructure\obj\Debug\net6.0\ProjectoFinanceiro.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Infrastructure\obj\Debug\net6.0\ProjectoFinanceiro.Infrastructure.AssemblyInfo.cs
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Infrastructure\obj\Debug\net6.0\ProjectoFinanceiro.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Infrastructure\obj\Debug\net6.0\ProjectoFinanceiro.Infrastructure.dll
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Infrastructure\obj\Debug\net6.0\refint\ProjectoFinanceiro.Infrastructure.dll
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Infrastructure\obj\Debug\net6.0\ProjectoFinanceiro.Infrastructure.pdb
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Infrastructure\obj\Debug\net6.0\ref\ProjectoFinanceiro.Infrastructure.dll
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Infrastructure\bin\Debug\net6.0\ProjectoFinanceiro.Domain.dll
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Infrastructure\bin\Debug\net6.0\ProjectoFinanceiro.Domain.pdb
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Infrastructure\obj\Debug\net6.0\ProjectoFinanceiro.Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Infrastructure\obj\Debug\net6.0\ProjectoFinanceiro.Infrastructure.csproj.CopyComplete

@@ -1,0 +1,11 @@
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Domain\bin\Debug\net6.0\ProjectoFinanceiro.Domain.deps.json
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Domain\bin\Debug\net6.0\ProjectoFinanceiro.Domain.dll
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Domain\bin\Debug\net6.0\ProjectoFinanceiro.Domain.pdb
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Domain\obj\Debug\net6.0\ProjectoFinanceiro.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Domain\obj\Debug\net6.0\ProjectoFinanceiro.Domain.AssemblyInfoInputs.cache
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Domain\obj\Debug\net6.0\ProjectoFinanceiro.Domain.AssemblyInfo.cs
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Domain\obj\Debug\net6.0\ProjectoFinanceiro.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Domain\obj\Debug\net6.0\ProjectoFinanceiro.Domain.dll
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Domain\obj\Debug\net6.0\refint\ProjectoFinanceiro.Domain.dll
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Domain\obj\Debug\net6.0\ProjectoFinanceiro.Domain.pdb
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Domain\obj\Debug\net6.0\ref\ProjectoFinanceiro.Domain.dll
