@@ -9,6 +9,7 @@
       "ProjectoFinanceiro.Api/1.0.0": {
         "dependencies": {
           "ProjectoFinanceiro.Infrastructure": "1.0.0",
+          "ProjectoFinanceiro.Services": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -74,6 +75,15 @@
         "runtime": {
           "ProjectoFinanceiro.Infrastructure.dll": {}
         }
+      },
+      "ProjectoFinanceiro.Services/1.0.0": {
+        "dependencies": {
+          "ProjectoFinanceiro.Domain": "1.0.0",
+          "ProjectoFinanceiro.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "ProjectoFinanceiro.Services.dll": {}
+        }
       }
     }
   },
@@ -131,6 +141,11 @@
       "sha512": ""
     },
     "ProjectoFinanceiro.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjectoFinanceiro.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

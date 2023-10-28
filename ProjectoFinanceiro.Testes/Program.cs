@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Microsoft.Extensions.DependencyInjection;
-using ProjectoFinanceiro.Testes;
 using ProjectoFinanceiro.Testes.Extensions;
+using ProjectoFinanceiro.Testes.Principal;
 using System;
 class program
 {
@@ -16,7 +16,7 @@ class program
         }
         catch (Exception ex)
         {
-            throw ex;
+             throw ex;
         }
     }
     static IServiceCollection ConfigureServices()

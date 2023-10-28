@@ -1,12 +1,13 @@
 ﻿using ProjectoFinanceiro.Domain.Entities;
 using ProjectoFinanceiro.Infrastructure.Repositories;
+using ProjectoFinanceiro.Testes.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectoFinanceiro.Testes
+namespace ProjectoFinanceiro.Testes.Repositories
 {
     public class RepositorioTeste
     {
@@ -31,13 +32,13 @@ namespace ProjectoFinanceiro.Testes
             {
                 throw ex;
             }
-          
+
         }
 
         private void ValidarListagemClientes()
         {
             List<Cliente> clientes = _clienteRepository.Listar();
-            foreach(Cliente cliente in clientes)
+            foreach (Cliente cliente in clientes)
             {
                 Console.WriteLine($"Id: {cliente.ClienteId}, Nome:{cliente.Nome}");
             }
@@ -51,13 +52,10 @@ namespace ProjectoFinanceiro.Testes
         }
         private void ValidarCadastroCliente()
         {
-            int id = 55;
 
-            Cliente cliente = new Cliente
-            {
-                ClienteId = 55,
-                Nome = "Super Programador"
-            };
+            Cliente cliente =  ClienteFactory.GetNovoCliente();
+            int id = cliente.ClienteId;
+
             _clienteRepository.Salvar(cliente);
 
             Cliente objPesquisa = _clienteRepository.Pesquisar(id);

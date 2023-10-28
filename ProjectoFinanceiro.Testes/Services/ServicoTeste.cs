@@ -1,13 +1,14 @@
 ﻿using ProjectoFinanceiro.Domain.Entities;
 using ProjectoFinanceiro.Infrastructure.Repositories;
 using ProjectoFinanceiro.Services.Service;
+using ProjectoFinanceiro.Testes.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectoFinanceiro.Testes
+namespace ProjectoFinanceiro.Testes.Services
 {
     public class ServicoTeste
     {
@@ -17,7 +18,7 @@ namespace ProjectoFinanceiro.Testes
         {
             _clienteService = clienteService;
         }
-        
+
         public void Execute()
         {
             try
@@ -55,13 +56,10 @@ namespace ProjectoFinanceiro.Testes
         private void ValidarCadastroCliente()
         {
             Console.WriteLine("Teste Camada de Servicos: ValidarCadastroCliente");
-            int id = 55;
 
-            Cliente cliente = new Cliente
-            {
-                ClienteId = 55,
-                Nome = "Super Programador"
-            };
+            Cliente cliente = ClienteFactory.GetNovoCliente();
+            int id = cliente.ClienteId;
+
             _clienteService.Salvar(cliente);
 
             Cliente objPesquisa = _clienteService.Pesquisar(id);

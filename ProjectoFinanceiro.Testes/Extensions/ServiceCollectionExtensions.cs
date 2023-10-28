@@ -2,6 +2,9 @@
 using Microsoft.Extensions.DependencyInjection;
 using ProjectoFinanceiro.Infrastructure.Repositories;
 using ProjectoFinanceiro.Services.Service;
+using ProjectoFinanceiro.Testes.Principal;
+using ProjectoFinanceiro.Testes.Repositories;
+using ProjectoFinanceiro.Testes.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;

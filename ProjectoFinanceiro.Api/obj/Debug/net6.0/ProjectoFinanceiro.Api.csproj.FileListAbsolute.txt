@@ -34,3 +34,5 @@ D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Api\bin\Debug\net6.0\Proje
 D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Api\bin\Debug\net6.0\ProjectoFinanceiro.Infrastructure.dll
 D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Api\bin\Debug\net6.0\ProjectoFinanceiro.Infrastructure.pdb
 D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Api\bin\Debug\net6.0\ProjectoFinanceiro.Domain.pdb
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Api\bin\Debug\net6.0\ProjectoFinanceiro.Services.dll
+D:\Projects\ProjectoFinanceiro.Web\ProjectoFinanceiro.Api\bin\Debug\net6.0\ProjectoFinanceiro.Services.pdb

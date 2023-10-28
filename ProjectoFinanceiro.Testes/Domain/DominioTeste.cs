@@ -5,8 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ProjectoFinanceiro.Testes.Helpers;
 
-namespace ProjectoFinanceiro.Testes
+namespace ProjectoFinanceiro.Testes.Domain
 {
     public class DominioTeste
     {
@@ -20,12 +21,7 @@ namespace ProjectoFinanceiro.Testes
 
         private void TestarEntidade()
         {
-            Cliente cliente = new Cliente()
-            {
-                ClienteId = 1,
-                Nome = "Amancio Junior",
-                Cpf = "12345678902124"
-            };
+            Cliente cliente = ClienteFactory.GetCliente();
 
             string message = $"Id: {cliente.ClienteId}, Nome: {cliente.Nome}";
             Console.WriteLine(message);
@@ -33,12 +29,7 @@ namespace ProjectoFinanceiro.Testes
 
         private void TestarDto()
         {
-            ClienteDto cliente = new ClienteDto()
-            {
-                ClienteId = 1,
-                Nome = "Amancio Junior",
-                Cpf = "12345678902124"
-            };
+            ClienteDto cliente = ClienteDtoFactory.GetClienteDto();
 
             string message = $"Id: {cliente.ClienteId}, Nome: {cliente.Nome}";
             Console.WriteLine(message);
@@ -46,12 +37,8 @@ namespace ProjectoFinanceiro.Testes
 
         private void TestarConversaoEntidadeParaDto()
         {
-            Cliente cliente = new Cliente()
-            {
-                ClienteId = 1,
-                Nome = "Amancio Junior",
-                Cpf = "12345678902124"
-            };
+            Cliente cliente = ClienteFactory.GetCliente();
+
             ClienteDto dto = cliente.ConverterParaDto();
 
             string message = $"Id: {dto.ClienteId}, Nome: {dto.Nome}";
@@ -59,12 +46,8 @@ namespace ProjectoFinanceiro.Testes
         }
         private void TestarConversaoDtoParaEntidade()
         {
-            ClienteDto cliente = new ClienteDto()
-            {
-                ClienteId = 1,
-                Nome = "Amancio Junior",
-                Cpf = "12345678902124"
-            };
+            ClienteDto cliente = ClienteDtoFactory.GetClienteDto();
+
             Cliente entidade = cliente.ConverterParaEntidade();
 
             string message = $"Id: {entidade.ClienteId}, Nome: {entidade.Nome}";
