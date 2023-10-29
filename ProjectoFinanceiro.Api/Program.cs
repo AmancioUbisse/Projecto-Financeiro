@@ -8,7 +8,7 @@ builder.Services.AddControllers();
 
 // Adicionar serviços
 //Repositorios
-builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+builder.Services.AddSingleton<IClienteRepository, ClienteRepository>();
 
 //Servicos
 builder.Services.AddScoped<ClienteService>();

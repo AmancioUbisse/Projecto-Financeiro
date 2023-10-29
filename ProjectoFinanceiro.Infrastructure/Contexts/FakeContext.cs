@@ -31,8 +31,7 @@ namespace ProjectoFinanceiro.Infrastructure.Contexts
 
         public Cliente ReadCliente(int id)
         {
-           Cliente result = _clientes
-                .FirstOrDefault(p => p.ClienteId.Equals(id));
+           Cliente result = _clientes.FirstOrDefault(p => p.ClienteId.Equals(id));
             return result;
         }
 
@@ -94,6 +93,13 @@ namespace ProjectoFinanceiro.Infrastructure.Contexts
                 Cpf = "1234678945"
             };
             _clientes.Add(cliente);
+        }
+
+        public int NextId()
+        {
+            int id = _clientes.Max(p => p.ClienteId);
+            id++;
+            return id ;
         }
     }
 }

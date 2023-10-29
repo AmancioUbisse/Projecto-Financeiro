@@ -15,5 +15,6 @@ namespace ProjectoFinanceiro.Infrastructure.Contexts
         public Cliente ReadCliente(int id);
         public void UpdateCliente(Cliente cliente); 
         public void DeleteCliente(int id);
+        public int NextId();
     }
 }
